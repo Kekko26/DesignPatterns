@@ -51,7 +51,7 @@ class LogStorageFSAdapter {
   }
 }
 
-const fsStorage = new LogStorageFSAdapter("output.log");
+const fsStorage = new LogStorageFSAdapter("Fix the adapter/output.log");
 
 const logger = new Logger(fsStorage);
 
